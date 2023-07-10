@@ -1,0 +1,268 @@
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\QLTV.exe.config
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\QLTV.exe
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\QLTV.pdb
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Data.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Drawing.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Utils.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraBars.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Data.v22.2.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Utils.v22.2.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraBars.v22.2.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.csproj.AssemblyReference.cache
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.csproj.SuggestedBindingRedirects.cache
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmDangNhap.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmMain.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.Properties.Resources.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.csproj.GenerateResource.cache
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.exe.licenses
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.csproj.CoreCompileInputs.cache
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.csproj.CopyComplete
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.exe
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.pdb
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Office.v22.2.Core.dll
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\bin\Debug\DevExpress.Office.v22.2.Core.xml
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmDocGia.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmCuonSach.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmBaoTapChi.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmTaiLieu.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmTacGia.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmTuaSach.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmTaoTaiKhoan.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmXoaTaiKhoan.resources
+F:\OneDrive - IT Software\Documents\QLTV\QLTV\obj\Debug\QLTV.frmThemKyXB.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\QLTV.exe.config
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\QLTV.exe
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\QLTV.pdb
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Data.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Drawing.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Utils.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraBars.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Office.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Data.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Utils.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraBars.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Office.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.csproj.AssemblyReference.cache
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.csproj.SuggestedBindingRedirects.cache
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmBaoTapChi.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmCuonSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmDocGia.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmDangNhap.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmMain.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmTacGia.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmTaiLieu.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmTaoTaiKhoan.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmTuaSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmXoaTaiKhoan.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.Properties.Resources.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.csproj.GenerateResource.cache
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.exe.licenses
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.csproj.CoreCompileInputs.cache
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.csproj.CopyComplete
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.exe
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.pdb
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Charts.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.CodeParser.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.DataAccess.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.PivotGrid.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.RichEdit.v22.2.Export.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Utils.v22.2.UI.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Xpo.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraCharts.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraGauges.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraReports.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraRichEdit.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.DataVisualization.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.DataAccess.v22.2.UI.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraNavBar.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraPivotGrid.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraCharts.v22.2.Extensions.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Images.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraDiagram.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Diagram.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Charts.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.DataAccess.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.PivotGrid.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Utils.v22.2.UI.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Xpo.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraCharts.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraGauges.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraReports.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraRichEdit.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.DataAccess.v22.2.UI.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraNavBar.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraPivotGrid.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.XtraDiagram.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\bin\Debug\DevExpress.Diagram.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.ReportDocGiaMuonQuaHan.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.ReportSachDangDuocMuon.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmCTSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmKyXuatBanBao.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmLanKyXBSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmHieuChinhSoLuongBTC.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmXoaTacGiaTuaSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN-main\QLTV\obj\Debug\QLTV.frmBaoTapChiDG.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.csproj.AssemblyReference.cache
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.csproj.SuggestedBindingRedirects.cache
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmBaoTapChiDG.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmBaoTapChi.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmCTSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmCuonSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmDocGia.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmDangNhap.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmKyXuatBanBao.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmMain.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmMuonBao.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmMuonSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmTaiLieu.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmTaoTaiKhoan.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmLanKyXBSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmTuaSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmXoaTacGiaTuaSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmXoaTaiKhoan.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.Properties.Resources.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.ReportDocGiaMuonQuaHan.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.ReportSachDangDuocMuon.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.csproj.GenerateResource.cache
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.exe.licenses
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.csproj.CoreCompileInputs.cache
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.exe
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.pdb
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\QLTV.exe.config
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\QLTV.exe
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\QLTV.pdb
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.BonusSkins.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Charts.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.CodeParser.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Data.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.DataAccess.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Drawing.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Office.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.PivotGrid.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.RichEdit.v22.2.Export.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Utils.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Utils.v22.2.UI.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Xpo.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraBars.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraCharts.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraGauges.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraReports.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraRichEdit.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.DataVisualization.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.DataAccess.v22.2.UI.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraNavBar.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraPivotGrid.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraCharts.v22.2.Extensions.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Images.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraDiagram.v22.2.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Diagram.v22.2.Core.dll
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Charts.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Data.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.DataAccess.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Office.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.PivotGrid.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Utils.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Utils.v22.2.UI.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Xpo.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraBars.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraCharts.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraGauges.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraReports.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraReports.v22.2.Extensions.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraRichEdit.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraVerticalGrid.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.DataAccess.v22.2.UI.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraNavBar.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraCharts.v22.2.Wizard.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraPivotGrid.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.XtraDiagram.v22.2.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\bin\Debug\DevExpress.Diagram.v22.2.Core.xml
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.csproj.CopyComplete
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmTopMuonBTC.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmTopMuonSach.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.ReportDanhSachBTCDangMuon.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.ReportDGMuonBTCQuaHan.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.ReportTop10BTC.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.ReportTop10Sach.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmTG.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmHieuChinhLXB.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmHieuChinhBTC.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmBackup.resources
+F:\TTCS\QUAN-LY-THU-VIEN\QLTV\obj\Debug\QLTV.frmRestore.resources
