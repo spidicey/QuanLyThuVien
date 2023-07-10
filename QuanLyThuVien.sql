@@ -55,15 +55,6 @@ ALTER ROLE [db_datareader] ADD MEMBER [DocGia]
 GO
 ALTER ROLE [db_owner] ADD MEMBER [ThuThu]
 GO
-/****** Object:  Schema [2]    Script Date: 7/10/2023 4:55:20 PM ******/
-CREATE SCHEMA [2]
-GO
-/****** Object:  Schema [3]    Script Date: 7/10/2023 4:55:20 PM ******/
-CREATE SCHEMA [3]
-GO
-/****** Object:  Schema [7]    Script Date: 7/10/2023 4:55:20 PM ******/
-CREATE SCHEMA [7]
-GO
 
 /****** Object:  UserDefinedTableType [dbo].[TYPE_CTSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE TYPE [dbo].[TYPE_CTSach] AS TABLE(
@@ -115,9 +106,6 @@ AS
 SELECT IDCUONSACH, STT, TinhTrang, IDLXB
 FROM CuonSach
 WHERE CuonSach.IDCuonSach IN (SELECT IDCuonSach FROM CTMuonSach WHERE NgayTra IS NOT NULL)
-
-
-
 
 GO
 /****** Object:  Table [dbo].[CTSach]    Script Date: 7/10/2023 4:55:20 PM ******/
