@@ -1,5 +1,4 @@
 CREATE DATABASE [QuanLyThuVien]
-GO
 USE [master]
 GO
 CREATE LOGIN [Hoang] WITH PASSWORD=N'12345', DEFAULT_DATABASE=[QuanLyThuVien], DEFAULT_LANGUAGE=[us_english], CHECK_EXPIRATION=OFF, CHECK_POLICY=ON
@@ -18,70 +17,60 @@ ALTER SERVER ROLE [diskadmin] ADD MEMBER [ThuThu]
 GO
 ALTER SERVER ROLE [dbcreator] ADD MEMBER [ThuThu]
 GO
-
 USE [QuanLyThuVien]
 GO
-/****** Object:  User [1]    Script Date: 7/10/2023 2:34:35 PM ******/
+/****** Object:  User [1]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE USER [1] FOR LOGIN [Kien] WITH DEFAULT_SCHEMA=[dbo]
 GO
-/****** Object:  User [2]    Script Date: 7/10/2023 2:34:35 PM ******/
+/****** Object:  User [2]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE USER [2] FOR LOGIN [thinh] WITH DEFAULT_SCHEMA=[2]
 GO
-/****** Object:  User [3]    Script Date: 7/10/2023 2:34:35 PM ******/
+/****** Object:  User [3]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE USER [3] FOR LOGIN [Hoang] WITH DEFAULT_SCHEMA=[3]
 GO
-/****** Object:  User [7]    Script Date: 7/10/2023 2:34:35 PM ******/
+/****** Object:  User [7]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE USER [7] FOR LOGIN [Huy] WITH DEFAULT_SCHEMA=[7]
 GO
-/****** Object:  User [TT]    Script Date: 7/10/2023 2:34:35 PM ******/
+/****** Object:  User [TT]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE USER [TT] FOR LOGIN [ThuThu] WITH DEFAULT_SCHEMA=[dbo]
 GO
-/****** Object:  DatabaseRole [DocGia]    Script Date: 7/10/2023 2:34:36 PM ******/
+/****** Object:  DatabaseRole [DocGia]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE ROLE [DocGia]
 GO
-/****** Object:  DatabaseRole [ThuThu]    Script Date: 7/10/2023 2:34:36 PM ******/
+
+/****** Object:  DatabaseRole [ThuThu]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE ROLE [ThuThu]
 GO
 ALTER ROLE [DocGia] ADD MEMBER [1]
 GO
-ALTER ROLE [db_datareader] ADD MEMBER [1]
-GO
 ALTER ROLE [DocGia] ADD MEMBER [2]
-GO
-ALTER ROLE [db_datareader] ADD MEMBER [2]
 GO
 ALTER ROLE [DocGia] ADD MEMBER [3]
 GO
-ALTER ROLE [db_datareader] ADD MEMBER [3]
-GO
 ALTER ROLE [DocGia] ADD MEMBER [7]
 GO
-ALTER ROLE [db_datareader] ADD MEMBER [7]
-GO
 ALTER ROLE [ThuThu] ADD MEMBER [TT]
-GO
-ALTER ROLE [db_owner] ADD MEMBER [TT]
 GO
 ALTER ROLE [db_datareader] ADD MEMBER [DocGia]
 GO
 ALTER ROLE [db_owner] ADD MEMBER [ThuThu]
 GO
-/****** Object:  Schema [2]    Script Date: 7/10/2023 2:34:36 PM ******/
+/****** Object:  Schema [2]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE SCHEMA [2]
 GO
-/****** Object:  Schema [3]    Script Date: 7/10/2023 2:34:36 PM ******/
+/****** Object:  Schema [3]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE SCHEMA [3]
 GO
-/****** Object:  Schema [7]    Script Date: 7/10/2023 2:34:36 PM ******/
+/****** Object:  Schema [7]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE SCHEMA [7]
 GO
-/****** Object:  UserDefinedTableType [dbo].[TYPE_CTSach]    Script Date: 7/10/2023 2:34:36 PM ******/
+/****** Object:  UserDefinedTableType [dbo].[TYPE_CTSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE TYPE [dbo].[TYPE_CTSach] AS TABLE(
 	[MaTacGia] [nchar](10) NULL,
 	[IDTuaSach] [int] NULL
 )
 GO
-/****** Object:  Table [dbo].[CTMuonSach]    Script Date: 7/10/2023 2:34:36 PM ******/
+/****** Object:  Table [dbo].[CTMuonSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -99,7 +88,7 @@ CREATE TABLE [dbo].[CTMuonSach](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CuonSach]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  Table [dbo].[CuonSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -115,7 +104,7 @@ CREATE TABLE [dbo].[CuonSach](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  View [dbo].[V_SACH_CO_THE_MUON]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  View [dbo].[V_SACH_CO_THE_MUON]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -130,7 +119,7 @@ WHERE CuonSach.IDCuonSach IN (SELECT IDCuonSach FROM CTMuonSach WHERE NgayTra IS
 
 
 GO
-/****** Object:  Table [dbo].[CTSach]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  Table [dbo].[CTSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -145,7 +134,7 @@ CREATE TABLE [dbo].[CTSach](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[LanXuatBan]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  Table [dbo].[LanXuatBan]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -166,7 +155,7 @@ CREATE TABLE [dbo].[LanXuatBan](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[TacGia]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  Table [dbo].[TacGia]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -181,7 +170,7 @@ CREATE TABLE [dbo].[TacGia](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[TuaSach]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  Table [dbo].[TuaSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -196,7 +185,7 @@ CREATE TABLE [dbo].[TuaSach](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  View [dbo].[V_CT_SACH_CO_THE_MUON]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  View [dbo].[V_CT_SACH_CO_THE_MUON]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -211,7 +200,7 @@ LEFT JOIN (SELECT IDCUONSACH, STT, TinhTrang, IDLXB
 FROM CuonSach
 WHERE CuonSach.IDCuonSach IN (SELECT IDCuonSach FROM CTMuonSach WHERE NgayTra IS NOT NULL)) VSCTM ON VSCTM.IDLXB = LXB.IDLXB
 GO
-/****** Object:  Table [dbo].[DocGia]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  Table [dbo].[DocGia]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -227,7 +216,7 @@ CREATE TABLE [dbo].[DocGia](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  View [dbo].[GET_NO_ACCOUNTS_READER]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  View [dbo].[GET_NO_ACCOUNTS_READER]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -241,7 +230,7 @@ WHERE     (NOT EXISTS
                                FROM            sys.sysusers
                                WHERE        (name = CAST(SoThe AS NVARCHAR))))
 GO
-/****** Object:  View [dbo].[GET_ACCOUNTS_READER]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  View [dbo].[GET_ACCOUNTS_READER]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -255,7 +244,7 @@ WHERE     (EXISTS
                                FROM            sys.sysusers
                                WHERE        (name = CAST(SoThe AS NVARCHAR))))
 GO
-/****** Object:  View [dbo].[GET_TEN_SACH]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  View [dbo].[GET_TEN_SACH]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -265,7 +254,7 @@ AS
 SELECT IDCuonSach,TenTuaSach FROM CuonSach,LanXuatBan,TuaSach
 WHERE CuonSach.IDLXB=LanXuatBan.IDLXB AND CuonSach.IDCuonSach=TuaSach.IDTuaSach
 GO
-/****** Object:  Table [dbo].[KyXuatBan]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  Table [dbo].[KyXuatBan]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -282,7 +271,7 @@ CREATE TABLE [dbo].[KyXuatBan](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  View [dbo].[RestrictedKyXuatBan]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  View [dbo].[RestrictedKyXuatBan]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -292,7 +281,7 @@ AS
 	SELECT IDKyXuatBan, LanXB, IDBTC
 	FROM KyXuatBan
 GO
-/****** Object:  Table [dbo].[BaoTapChi]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  Table [dbo].[BaoTapChi]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -309,7 +298,7 @@ CREATE TABLE [dbo].[BaoTapChi](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CTMuonBaoTapChi]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  Table [dbo].[CTMuonBaoTapChi]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -327,7 +316,7 @@ CREATE TABLE [dbo].[CTMuonBaoTapChi](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[TaiLieu]    Script Date: 7/10/2023 2:34:37 PM ******/
+/****** Object:  Table [dbo].[TaiLieu]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -563,33 +552,33 @@ INSERT [dbo].[TuaSach] ([IDTuaSach], [TenTuaSach], [MaTaiLieu]) VALUES (11, N'Nh
 GO
 SET IDENTITY_INSERT [dbo].[TuaSach] OFF
 GO
-/****** Object:  Index [IX_NgayMuon]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  Index [IX_NgayMuon]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE NONCLUSTERED INDEX [IX_NgayMuon] ON [dbo].[CTMuonBaoTapChi]
 (
 	[NgayMuon] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 GO
-/****** Object:  Index [IX_NgayMuon]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  Index [IX_NgayMuon]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE NONCLUSTERED INDEX [IX_NgayMuon] ON [dbo].[CTMuonSach]
 (
 	[NgayMuon] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 GO
-/****** Object:  Index [IX_STT_IDLXB]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  Index [IX_STT_IDLXB]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE NONCLUSTERED INDEX [IX_STT_IDLXB] ON [dbo].[CuonSach]
 (
 	[STT] ASC,
 	[IDLXB] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 GO
-/****** Object:  Index [UK_LanXB]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  Index [UK_LanXB]    Script Date: 7/10/2023 4:55:20 PM ******/
 ALTER TABLE [dbo].[KyXuatBan] ADD  CONSTRAINT [UK_LanXB] UNIQUE NONCLUSTERED 
 (
 	[IDBTC] ASC,
 	[LanXB] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 GO
-/****** Object:  Index [UK_LanXB_TuaSach]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  Index [UK_LanXB_TuaSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE NONCLUSTERED INDEX [UK_LanXB_TuaSach] ON [dbo].[LanXuatBan]
 (
 	[LanXB] ASC,
@@ -664,7 +653,7 @@ ON UPDATE CASCADE
 GO
 ALTER TABLE [dbo].[TuaSach] CHECK CONSTRAINT [FK_TuaSach_TaiLieu]
 GO
-/****** Object:  StoredProcedure [dbo].[Backup_QLTV]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[Backup_QLTV]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -682,7 +671,7 @@ BEGIN
 	BACKUP DATABASE QuanLyThuVien TO Backup_QuanLyThuVien
 END
 GO
-/****** Object:  StoredProcedure [dbo].[BaoTapChiDangChoMuon]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[BaoTapChiDangChoMuon]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -696,7 +685,7 @@ BEGIN
 		INNER JOIN DocGia AS DG ON CT.SoThe = DG.SoThe
 END
 GO
-/****** Object:  StoredProcedure [dbo].[Check_ADD_IDBTC_LanXB]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[Check_ADD_IDBTC_LanXB]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -714,7 +703,7 @@ BEGIN
 		RETURN 0
 END
 GO
-/****** Object:  StoredProcedure [dbo].[Check_ADD_IDTS_LanXB_Sach]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[Check_ADD_IDTS_LanXB_Sach]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -732,7 +721,7 @@ BEGIN
 		RETURN 0
 END
 GO
-/****** Object:  StoredProcedure [dbo].[Check_IDBTC_LanXB]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[Check_IDBTC_LanXB]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -751,7 +740,7 @@ BEGIN
 		RETURN 0
 END
 GO
-/****** Object:  StoredProcedure [dbo].[Check_IDBTC_LanXB_Sach]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[Check_IDBTC_LanXB_Sach]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -770,7 +759,7 @@ BEGIN
 		RETURN 0
 END
 GO
-/****** Object:  StoredProcedure [dbo].[DocGiaMuonBTCQuaHan]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[DocGiaMuonBTCQuaHan]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -784,7 +773,7 @@ BEGIN
 		INNER JOIN DocGia AS DG ON CT.SoThe = DG.SoThe
 END
 GO
-/****** Object:  StoredProcedure [dbo].[DocGiaMuonQuanHan]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[DocGiaMuonQuanHan]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -800,7 +789,7 @@ BEGIN
 		 INNER JOIN DocGia AS DG ON CTM.SoThe = DG.SoThe
 END
 GO
-/****** Object:  StoredProcedure [dbo].[HieuChinhBTC]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[HieuChinhBTC]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -832,7 +821,7 @@ BEGIN
 	END
 END
 GO
-/****** Object:  StoredProcedure [dbo].[HieuChinhLanXB]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[HieuChinhLanXB]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -853,7 +842,7 @@ BEGIN
 	WHERE IDLXB = @idLXB
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SachDangChoMuon]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SachDangChoMuon]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -868,7 +857,7 @@ BEGIN
 		 INNER JOIN DocGia AS DG ON CTM.SoThe = DG.SoThe
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_CHECK_BTC]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_CHECK_BTC]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -878,7 +867,7 @@ AS
 SELECT RESULT = 1 
 WHERE EXISTS(SELECT IDBTC FROM BaoTapChi WHERE IDBTC=@IDBTC)
 GO
-/****** Object:  StoredProcedure [dbo].[SP_CHECK_CUON_SACH]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_CHECK_CUON_SACH]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -888,7 +877,7 @@ AS
 SELECT RESULT = 1 
 WHERE EXISTS(SELECT IDCuonSach FROM CuonSach WHERE IDCuonSach=@IDSACH)
 GO
-/****** Object:  StoredProcedure [dbo].[SP_CHECK_MA_TAI_LIEU]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_CHECK_MA_TAI_LIEU]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -898,7 +887,7 @@ AS
 SELECT RESULT = 1 
 WHERE EXISTS(SELECT MaTaiLieu FROM TaiLieu WHERE MaTaiLieu=@MATL)
 GO
-/****** Object:  StoredProcedure [dbo].[SP_CHECK_SO_THE]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_CHECK_SO_THE]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -908,7 +897,7 @@ AS
 SELECT RESULT = 1 
 WHERE EXISTS(SELECT SoThe FROM DocGia WHERE SoThe=@SOTHE)
 GO
-/****** Object:  StoredProcedure [dbo].[SP_CREATE_ACCOUNT]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_CREATE_ACCOUNT]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -930,7 +919,7 @@ AS
 
 	EXEC sp_addrolemember 'DocGia', @USERNAME
 GO
-/****** Object:  StoredProcedure [dbo].[SP_CTSach]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_CTSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -947,7 +936,7 @@ BEGIN
 			VALUES (SOURC.MaTacGia, SOURC.IDTuaSach);
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_GET_BAO_CO_THE_MUON]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_GET_BAO_CO_THE_MUON]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -962,7 +951,7 @@ BEGIN
 	(SELECT IDKyXB FROM CTMuonBaoTapChi WHERE SoThe = @SOTHE AND NgayTra IS NULL)
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_GET_CTMUONBAO]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_GET_CTMUONBAO]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -975,7 +964,7 @@ BEGIN
 	SELECT * FROM CTMuonBaoTapChi WHERE @MATHE=0 OR @MATHE=CTMuonBaoTapChi.SoThe
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_GET_CTMUONSACH]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_GET_CTMUONSACH]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -987,7 +976,7 @@ BEGIN
 	SELECT * FROM CTMuonSach WHERE @MATHE=0 OR @MATHE=CTMuonSach.SoThe
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_GET_READER]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_GET_READER]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -996,7 +985,7 @@ CREATE PROC [dbo].[SP_GET_READER]
 AS
 SELECT TEN FROM DocGia
 GO
-/****** Object:  StoredProcedure [dbo].[SP_GET_READER_INFO]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_GET_READER_INFO]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1007,21 +996,20 @@ AS
 BEGIN
 	DECLARE @TENUSER NVARCHAR(50)
 	DECLARE @TENNHOM NVARCHAR(50)
-	SELECT @TENUSER = NAME FROM sys.sysusers WHERE sid = SUSER_SID(@TENLOGIN)
- 
+	SELECT @TENUSER=NAME FROM sys.sysusers WHERE sid = SUSER_SID(@TENLOGIN)
+	 
 	SELECT @TENNHOM= NAME
 	   FROM sys.sysusers 
 	   WHERE UID = (SELECT GROUPUID 
 					 FROM SYS.SYSMEMBERS 
 					   WHERE MEMBERUID= (SELECT UID FROM sys.sysusers 
 										  WHERE NAME=@TENUSER))
-	SELECT @TENUSER, 
-	TEN = (CASE WHEN @TENNHOM like'DocGia' THEN (SELECT TEN FROM DocGia  WHERE SOTHE = @TENUSER ) 
-										   ELSE @TENLOGIN END),
-	 @TENNHOM
+	SELECT @TENUSER, TEN=(CASE WHEN @TENNHOM like'DocGia' 
+	THEN (SELECT TEN FROM DocGia  WHERE SOTHE = @TENUSER ) ELSE @TENLOGIN END),
+	@TENNHOM
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_REMOVE_ACCOUNT]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_REMOVE_ACCOUNT]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1046,7 +1034,7 @@ AS
 
 	EXEC sp_dropuser @USER_NAME
 GO
-/****** Object:  StoredProcedure [dbo].[SP_THEM_MUON_SACH]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_THEM_MUON_SACH]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1066,7 +1054,7 @@ BEGIN
 		VALUES (@SOTHE, @IDCUONSACH, @NGAYMUON);
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_TOP10_MuonBTC]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_TOP10_MuonBTC]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1086,7 +1074,7 @@ BEGIN
 	order by SOLUONG
 END
 GO
-/****** Object:  StoredProcedure [dbo].[SP_TOP10_MuonSach]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[SP_TOP10_MuonSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1106,7 +1094,7 @@ BEGIN
 	order by SOLUONG
 END
 GO
-/****** Object:  StoredProcedure [dbo].[Them_Cuon_Sach]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[Them_Cuon_Sach]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1130,7 +1118,7 @@ BEGIN
 	VALUES(@stt + 1, @idLXB, @tinhTrang)
 END
 GO
-/****** Object:  StoredProcedure [dbo].[ThemKyXuatBan]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[ThemKyXuatBan]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1157,7 +1145,7 @@ BEGIN
 	VALUES(@SoLuongNhap, @SoLuongTon, @idbtc, @lxb)
 END
 GO
-/****** Object:  StoredProcedure [dbo].[ThemLanXuatBan]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[ThemLanXuatBan]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1188,7 +1176,7 @@ BEGIN
 
 END
 GO
-/****** Object:  StoredProcedure [dbo].[UPDATE_MUON_BAO]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[UPDATE_MUON_BAO]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1208,7 +1196,7 @@ BEGIN
 		VALUES (@SOTHE, @IDKyXB, @NGAYMUON);
 END
 GO
-/****** Object:  StoredProcedure [dbo].[XoaTacGiaTuaSach]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  StoredProcedure [dbo].[XoaTacGiaTuaSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1222,7 +1210,7 @@ BEGIN
 	WHERE IDTuaSach = @idTuaSach
 END
 GO
-/****** Object:  Trigger [dbo].[trg_SluongBao]    Script Date: 7/10/2023 2:34:38 PM ******/
+/****** Object:  Trigger [dbo].[trg_SluongBao]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1236,7 +1224,7 @@ END
 GO
 ALTER TABLE [dbo].[CTMuonBaoTapChi] ENABLE TRIGGER [trg_SluongBao]
 GO
-/****** Object:  Trigger [dbo].[trg_TraBao]    Script Date: 7/10/2023 2:34:40 PM ******/
+/****** Object:  Trigger [dbo].[trg_TraBao]    Script Date: 7/10/2023 4:55:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1251,3 +1239,8 @@ GO
 ALTER TABLE [dbo].[CTMuonBaoTapChi] ENABLE TRIGGER [trg_TraBao]
 GO
 
+GRANT EXECUTE ON [dbo].[SP_GET_READER_INFO] TO [DocGia]
+GRANT EXECUTE ON [dbo].[UPDATE_MUON_BAO] TO [DocGia]
+GRANT EXECUTE ON [dbo].[SP_GET_CTMUONBAO] TO [DocGia]
+GRANT EXECUTE ON [dbo].[SP_THEM_MUON_SACH] TO [DocGia]
+GRANT EXECUTE ON [dbo].[SP_GET_CTMUONSACH] TO [DocGia]
