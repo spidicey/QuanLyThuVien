@@ -64,6 +64,7 @@ GO
 /****** Object:  Schema [7]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE SCHEMA [7]
 GO
+
 /****** Object:  UserDefinedTableType [dbo].[TYPE_CTSach]    Script Date: 7/10/2023 4:55:20 PM ******/
 CREATE TYPE [dbo].[TYPE_CTSach] AS TABLE(
 	[MaTacGia] [nchar](10) NULL,
@@ -1244,3 +1245,8 @@ GRANT EXECUTE ON [dbo].[UPDATE_MUON_BAO] TO [DocGia]
 GRANT EXECUTE ON [dbo].[SP_GET_CTMUONBAO] TO [DocGia]
 GRANT EXECUTE ON [dbo].[SP_THEM_MUON_SACH] TO [DocGia]
 GRANT EXECUTE ON [dbo].[SP_GET_CTMUONSACH] TO [DocGia]
+
+GO
+DENY SELECT, INSERT, UPDATE, DELETE ON [dbo].[CTMuonBaoTapChi] TO [DocGia]
+DENY SELECT, INSERT, UPDATE, DELETE ON [dbo].[CTMuonSach] TO [DocGia]
+DENY SELECT, INSERT, UPDATE, DELETE ON [dbo].[DocGia] TO [DocGia]
